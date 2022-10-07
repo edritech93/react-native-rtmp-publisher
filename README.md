@@ -1,3 +1,5 @@
+NOTE: this repo is fork from https://www.npmjs.com/package/react-native-rtmp-publisher/v/0.3.0
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/42299721/150039268-bba167fe-c7de-471a-9587-565308d71f20.gif" alt="logo" width="60%" />
 </p>
