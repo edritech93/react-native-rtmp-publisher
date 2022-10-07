@@ -2,7 +2,7 @@
 //  RTMPView.swift
 //  rtmpPackageExample
 //
-//  Created by Yudi Edri Alviska Bayantemur on 15.01.2022.
+//  Created by Yudi Edri Alviska on 15.01.2022.
 //
 
 import UIKit
