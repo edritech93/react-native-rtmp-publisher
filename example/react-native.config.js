@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   dependencies: {
-    'react-native-rtmp-streaming': {
+    'react-native-rtmp-publisher': {
       root: path.join(__dirname, '..'),
     },
   },
