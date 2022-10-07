@@ -7,7 +7,7 @@ import {
 } from './components/Buttons';
 import { CardView } from './components/Card';
 import { Text } from './components/Text';
-import RTMPPublisher, { StreamState } from 'react-native-rtmp-streaming';
+import RTMPPublisher, { StreamState } from 'react-native-rtmp-publisher';
 import {
   getPermissionCamera,
   getPermissionMicrophone,
