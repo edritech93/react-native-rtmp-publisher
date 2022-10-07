@@ -11,7 +11,7 @@
 
 + (BOOL)requiresMainQueueSetup
 {
-  return NO;
+    return NO;
 }
 
 RCT_EXPORT_VIEW_PROPERTY(streamURL, NSString)

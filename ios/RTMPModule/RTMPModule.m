@@ -11,67 +11,67 @@
 
 + (BOOL)requiresMainQueueSetup
 {
-  return NO;
+    return NO;
 }
 
 RCT_EXTERN_METHOD(
-                    startStream: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  startStream: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    stopStream: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  stopStream: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    mute: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  mute: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    unmute: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  unmute: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    switchCamera: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  switchCamera: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    getPublishURL: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  getPublishURL: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    isMuted: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  isMuted: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    isStreaming: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  isStreaming: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    isAudioPrepared: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  isAudioPrepared: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    isVideoPrepared: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  isVideoPrepared: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    isCameraOnPreview: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  isCameraOnPreview: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 RCT_EXTERN_METHOD(
-                    toggleFlash: (RCTPromiseResolveBlock)resolve
-                    reject: (RCTPromiseRejectBlock)reject
+                  toggleFlash: (RCTPromiseResolveBlock)resolve
+                  reject: (RCTPromiseRejectBlock)reject
                   )
 
 @end
