@@ -40,9 +40,9 @@ public class Publisher {
         eventEffect(type);
         WritableMap eventData = ObjectCaster.caster(data);
 
-          _reactContext
-            .getJSModule(RCTEventEmitter.class)
-            .receiveEvent(_surfaceView.getId(), type, eventData);
+        _reactContext
+          .getJSModule(RCTEventEmitter.class)
+          .receiveEvent(_surfaceView.getId(), type, eventData);
       }
     };
   }
@@ -143,14 +143,13 @@ public class Publisher {
 
   public void toggleFlash() {
     try {
-      if(_rtmpCamera.isLanternEnabled()){
+      if (_rtmpCamera.isLanternEnabled()) {
         _rtmpCamera.disableLantern();
         return;
       }
 
       _rtmpCamera.enableLantern();
-    }
-    catch (Exception e){
+    } catch (Exception e) {
       e.printStackTrace();
     }
   }

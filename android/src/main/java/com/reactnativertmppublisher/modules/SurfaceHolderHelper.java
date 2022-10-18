@@ -1,6 +1,5 @@
 package com.reactnativertmppublisher.modules;
 
-
 import android.view.SurfaceHolder;
 
 import androidx.annotation.NonNull;
