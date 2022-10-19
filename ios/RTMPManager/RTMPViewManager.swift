@@ -10,8 +10,6 @@ import HaishinKit
 import Logboard
 import UIKit
 
-//let logger = LBLogger.with("com.haishinkit.Exsample.iOS")
-
 @objc(RTMPPublisherManager)
 class RTMPViewManager: RCTViewManager {
     override init() {
@@ -29,7 +27,7 @@ class RTMPViewManager: RCTViewManager {
             }
             try session.setActive(true)
         } catch {
-//            logger.error(error)
+            print(error)
         }
     }
     override func view() -> UIView! {

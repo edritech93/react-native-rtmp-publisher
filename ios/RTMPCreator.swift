@@ -21,15 +21,7 @@ class RTMPCreator {
         _streamName = name
     }
     
-    
     public static func getPublishURL() -> String {
-        // TODO: Object formatına dönüştürülebilir
-        /**
-         {
-         streamName: _streamName
-         streamUrl: _streamUrl
-         }
-         */
         return "\(_streamUrl)/\(_streamName)"
     }
     
@@ -46,5 +38,4 @@ class RTMPCreator {
         connection.close()
         isStreaming = false
     }
-    
 }
